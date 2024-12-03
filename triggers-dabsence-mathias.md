@@ -5,7 +5,7 @@
 
 
 - **Nom du Trigger** : `update_dispo_voiture`
-- **Événement** : `AFTER INSERT` sur la table `Réserations`
+- **Événement** : `AFTER INSERT` sur la table `Réservations`
 - **Objectif** :
     - Après chaque réservation, le trigger récupère l'id de la voiture réservée et change sa disponibilité à 0 pour indiquer qu'elle n'est plus disponilbe.
 
