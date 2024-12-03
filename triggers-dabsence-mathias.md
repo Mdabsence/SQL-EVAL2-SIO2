@@ -51,8 +51,8 @@ END;
 - **Objectif** :
     - Avant d'ajouter un nouveau client, le trigger va vérifier la validité de son permis de conduire.
     - Tout d'abord, si le numéro du permis de conduire ne fait pas 15 caractères, il envoi une erreur disant que celui-ci doit faire 15 caractères.
-    - Puis, si le numéro du permis de conduire contient au moins un caractère autre que des chiffres et des lettres alors il envoi une erreur.
-    - Et enfin si le numéro du permis de conduire est vide, il envoi aussi une erreur.
+    - Puis, si le numéro du permis de conduire contient au moins un caractère autre que des chiffres et des lettres alors il envoi une erreur précisant qu'il ne doit contenir que des chiffres et des lettres.
+    - Et enfin si le numéro du permis de conduire est vide, il envoi aussi une erreur indiquant qu'il faut posséder un permis de conduire pour s'inscrire.
 
 #### Code SQL :
 
