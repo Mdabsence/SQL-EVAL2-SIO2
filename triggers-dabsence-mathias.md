@@ -82,7 +82,8 @@ END;
 - **Objectif** :
     - Avant chaque réservation, le trigger va vérifier que la voiture est bien disponible.
     - On déclare une variable qui va prendre la valeur 0 ou 1 en fonction de la disponibilité de la voiture.
-    - Le trigger fait une requête SQL sur la table Voitures pour récupérer la disponibilité de la voiture en fonction de l'id de la réservation et la place dans la variable verif_dispo
+    - Le trigger fait une requête SQL sur la table Voitures pour récupérer la disponibilité de la voiture en fonction de l'id de la réservation.
+    - Le résultat de la requête est ensuite placé dans la variable verif_dispo.
     - Si la variable est égal à 0 alors la voiture n'est pas disponible et le trigger envoi un message d'erreur.
 
 #### Code SQL :
